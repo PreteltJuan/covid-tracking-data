@@ -1,6 +1,8 @@
 .navigator{
     position: sticky;
     top: 0px;
+    z-index: 100;
+    padding-bottom: 10px;
 }
 
 .titulo{
@@ -20,4 +22,19 @@
 
 .imagen{
     padding-top: 10%;
+}
+
+.tabla-container{
+    height: 700px;
+}
+
+.tabla-paises{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.tabla-paises .sticky{
+    position: sticky;
+    top: 0;
+    border-radius: 0;
 }
