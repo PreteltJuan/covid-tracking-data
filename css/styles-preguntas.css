@@ -1,0 +1,35 @@
+.navigator{
+    position: sticky;
+    top: 0px;
+}
+
+.titulo{
+    padding-top: 25px;
+}
+
+.link{
+    font-size: 20px;
+    
+}
+
+.texto {
+    font-size: 20px;
+    text-align: justify;
+    font-family: Roboto mono;
+}
+
+.imagen{
+    padding-top: 10%;
+}
+
+
+h3{
+    font-size: 25px;
+}
+h4{
+    font-size: 20px;
+}
+
+blockquote{
+    text-align: justify;
+}

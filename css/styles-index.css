@@ -1,0 +1,71 @@
+body{
+    font-family: public sans;
+}
+.navigator{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.titulo{
+    padding-top: 25px;
+}
+
+.link{
+    font-size: 20px;
+}
+
+.texto-entrada{
+    padding-top: 1cm;
+}
+.texto{
+    font-size: 23px;
+    text-align: justify;
+    
+}
+
+.imagen-logo{
+    padding-top: 10%;
+}
+
+.lista{
+    list-style: disc;
+}
+
+.lista li{
+    font-size: 21px;
+}
+
+.tabla{
+    width: 70%;
+}
+
+.tabla tbody th{
+    font-size: 20px;
+}
+.tabla tbody td{
+    font-size: 18;
+}
+
+.frase-wiki{
+    font-size: 15;
+}
+
+.tabla-container{
+    height: 250px;
+}
+
+.tabla-paises{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.tabla-paises .sticky{
+    position: sticky;
+    top: 0;
+    border-radius: 0;
+}
+
+.frase-pais-afectados{
+    font-size: 20px;
+}

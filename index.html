@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Covid 19</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles-index.css">
+    </head>
+
+    <body class="purple lighten-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col l12 ">
+                    <header class="titulo">
+                        <div>
+                            <h1 class=" red-text text-lighten-2">Coronavirus</h1>
+                            <h2 class=" pink-text text-lighten-3 hide-on-small-only">(COVID-19)</h2>
+                        </div>
+                    </header>
+                </div>
+            </div>
+            
+            <nav class="navigator">
+                <ul class="right hoverable ">
+                    <li>
+                        <a class="link  " href="estadisticas.html">Estadísticas</a>
+                    </li>
+                    <li>
+                        <a class="link" href="preguntas&frecuentes.html">Preguntas Frecuentes</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <section>
+                <div class="row texto-entrada">
+                    <div class="col l6">
+                        <p class="texto">
+                            COVID-19 (acrónimo del inglés coronavirus disease 2019), también conocida como enfermedad por
+                            coronavirus3​​ es una enfermedad infecciosa causada por el virus SARS-CoV-2.
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                    <div class="col l6">
+                        <blockquote>
+                            <img src="./img/covid.jpeg" width="100%">
+                        </blockquote>
+                    </div>
+                </div>
+                <div>
+                    <h2>Países más afectados <br><span class="frase-pais-afectados">(Por número de muertes)</span></h2>
+                </div>
+                <div class="tabla-container">
+                    <div class="tabla-paises">
+                        <table class="paises-afectados">
+                            <thead >
+                                <tr>
+                                    <th class="sticky  red lighten-2">
+                                        Ubicación
+                                    </th>
+                                    <th class="sticky red lighten-2">
+                                        Casos confirmados
+                                    </th>
+                                    <th class="sticky red lighten-2">
+                                        Curados 
+                                    </th>
+                                    <th class="sticky red lighten-2">
+                                        Fallecidos
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="resultado">
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <h2>
+                        Prevención
+                    </h2>
+                    <p class="texto">
+                        Algunas organizaciones internacionales, como la <a href="https://www.who.int/es" target="_blank"
+                        rel="noopener noreferrer">OMS</a>, han publicado medidas preventivas para reducir la
+                        transmisión del virus. Son similares a las que se han recomendado para prevenir la infección por
+                        otros
+                        coronavirus e incluyen:
+                    </p>
+                    <ol class="lista">
+                        <li>
+                            Lavarse frecuentemente las manos con agua y jabón.
+                        </li>
+                        <li>
+                            Al toser o estornudar, cubrirse la boca y la nariz con la sangría o fosa cubital (la concavidad
+                            que forma la cara interna del brazo al flexionarlo por el codo).
+                        </li>
+                        <li>
+                            Mantener al menos un metro de distancia de otras personas, «particularmente aquellas que tosan,
+                            estornuden y tengan fiebre».
+                        </li>
+                        <li>
+                            Evitar tocarse los ojos, la nariz y la boca.
+                        </li>
+                        <li>
+                            Ir al médico en caso de fiebre, tos y dificultad para respirar, llamando con antelación si se
+                            encuentra en zonas donde se está propagando el virus o si se las han visitado en los últimos 14
+                            días.
+                        </li>
+                        <li>
+                            Permanecer en casa si empieza a encontrarse mal, aunque se trate de síntomas leves como cefalea
+                            y rinorrea leve, hasta que se recupere si se encuentra en zonas donde se está propagando el
+                            virus o si se las han visitado en los últimos 14 días.23
+                        </li>
+                    </ol>
+                </div>
+                <div>
+                    <h2>Signos y Síntomas</h2>
+                    <p class="texto"> 
+                        Las personas infectadas pueden estar asintomáticas o presentar un cortejo de síntomas que oscilan
+                        desde leves a muy graves, entre ellos fiebre, disnea y tos seca.​ La diarrea y otros
+                        síntomas de rinofaringe, como estornudos, rinorrea y dolor de garganta, son menos frecuentes.​<br>
+                        Aunque las personas de avanzada edad son más vulnerables a la enfermedad, a mitad de marzo de 2020,
+                        la <a href="https://www.who.int/es" target="_blank"
+                        rel="noopener noreferrer">OMS</a> recordó que los jóvenes también pueden tener complicaciones e incluso llegar a la muerte por
+                        el virus.
+                    </p>
+                    <div class="row">
+                        <div class="col l5">
+                            <table class="tabla">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Sintomas presentes
+                                        </th>
+                                        <th>
+                                            Frecuencia(%)
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            Tos seca
+                                        </td>
+                                        <td>
+                                            67,7 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Producción de esputo	
+                                        </td>
+                                        <td>
+                                            33,4
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Náuseas o vómitos
+                                        </td>
+                                        <td>
+                                            5,0
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Hemoptisis	 
+                                        </td>
+                                        <td>
+                                            0,9
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Fiebre	
+                                        </td>
+                                        <td>
+                                            87,9 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Fatiga	
+                                        </td>
+                                        <td>
+                                            38,1 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Escalofríos
+                                        </td>
+                                        <td>
+                                            11,4 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Dolor muscular o dolor en las articulaciones
+                                        </td>
+                                        <td>
+                                            14,8 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Dolor de garganta	
+                                        </td>
+                                        <td>
+                                            13,9 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Dolor de cabeza	
+                                        </td>
+                                        <td>
+                                            13,6 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Disnea	
+                                        </td>
+                                        <td>
+                                            18,6
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col l4 hide-on-small-only">
+                            <img src="./img/symptoms.png" alt="sintomas covid-19 " width="170%" height="600px">
+                            <p class="frase-wiki">*Datos obtenidos de <a href="https://es.wikipedia.org/wiki/COVID-19"></a>Wikipedia</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="pink lighten-4">
+                <hr>
+                <div class="row contacto">
+                    <div class="col l6 m6 hide-on-small-only center">
+                        <img src="./img/logo1.png" alt="" class="imagen-logo">
+                    </div>
+                    <div class="col l6 m6 s12  center">
+                        <h3 class="contacto red-text text-lighten-2">Contact</h3>
+                        <a target="_blank" href="https://github.com/PreteltJuan"><img src="./img/github.png" alt="logo-github" height="50px"></a>
+                        <img src="./img/gmail.png" alt="logo-gmail" height="50px">
+                        <p class="red-text text-lighten-1"> preteltjuanoficial@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col l12 s12">
+                        <hr>
+                        <div class="center">
+                            <i class="tiny material-icons">copyright</i>
+                            <span> 2020 PRETELT STUDIOS INC.</span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+        <script src="./js/index.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+</html>
